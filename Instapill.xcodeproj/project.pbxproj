@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0DB742E1C2B6C4100FC1357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB742D1C2B6C4100FC1357 /* AppDelegate.swift */; };
+		E0DB74301C2B6C4100FC1357 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB742F1C2B6C4100FC1357 /* ViewController.swift */; };
+		E0DB74331C2B6C4100FC1357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DB74311C2B6C4100FC1357 /* Main.storyboard */; };
+		E0DB74351C2B6C4100FC1357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0DB74341C2B6C4100FC1357 /* Assets.xcassets */; };
+		E0DB74381C2B6C4100FC1357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0DB74361C2B6C4100FC1357 /* LaunchScreen.storyboard */; };
+		E0DB74431C2B6C4100FC1357 /* InstapillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB74421C2B6C4100FC1357 /* InstapillTests.swift */; };
+		E0DB744E1C2B6C4100FC1357 /* InstapillUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0DB744D1C2B6C4100FC1357 /* InstapillUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0DB743F1C2B6C4100FC1357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0DB74221C2B6C4000FC1357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0DB74291C2B6C4000FC1357;
+			remoteInfo = Instapill;
+		};
+		E0DB744A1C2B6C4100FC1357 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0DB74221C2B6C4000FC1357 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0DB74291C2B6C4000FC1357;
+			remoteInfo = Instapill;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E0DB742A1C2B6C4000FC1357 /* Instapill.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Instapill.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DB742D1C2B6C4100FC1357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0DB742F1C2B6C4100FC1357 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E0DB74321C2B6C4100FC1357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0DB74341C2B6C4100FC1357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0DB74371C2B6C4100FC1357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0DB74391C2B6C4100FC1357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0DB743E1C2B6C4100FC1357 /* InstapillTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstapillTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DB74421C2B6C4100FC1357 /* InstapillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstapillTests.swift; sourceTree = "<group>"; };
+		E0DB74441C2B6C4100FC1357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0DB74491C2B6C4100FC1357 /* InstapillUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstapillUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0DB744D1C2B6C4100FC1357 /* InstapillUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstapillUITests.swift; sourceTree = "<group>"; };
+		E0DB744F1C2B6C4200FC1357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0DB74271C2B6C4000FC1357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB743B1C2B6C4100FC1357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB74461C2B6C4100FC1357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E0DB74211C2B6C4000FC1357 = {
+			isa = PBXGroup;
+			children = (
+				E0DB742C1C2B6C4100FC1357 /* Instapill */,
+				E0DB74411C2B6C4100FC1357 /* InstapillTests */,
+				E0DB744C1C2B6C4100FC1357 /* InstapillUITests */,
+				E0DB742B1C2B6C4000FC1357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0DB742B1C2B6C4000FC1357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB742A1C2B6C4000FC1357 /* Instapill.app */,
+				E0DB743E1C2B6C4100FC1357 /* InstapillTests.xctest */,
+				E0DB74491C2B6C4100FC1357 /* InstapillUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0DB742C1C2B6C4100FC1357 /* Instapill */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB742D1C2B6C4100FC1357 /* AppDelegate.swift */,
+				E0DB742F1C2B6C4100FC1357 /* ViewController.swift */,
+				E0DB74311C2B6C4100FC1357 /* Main.storyboard */,
+				E0DB74341C2B6C4100FC1357 /* Assets.xcassets */,
+				E0DB74361C2B6C4100FC1357 /* LaunchScreen.storyboard */,
+				E0DB74391C2B6C4100FC1357 /* Info.plist */,
+			);
+			path = Instapill;
+			sourceTree = "<group>";
+		};
+		E0DB74411C2B6C4100FC1357 /* InstapillTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB74421C2B6C4100FC1357 /* InstapillTests.swift */,
+				E0DB74441C2B6C4100FC1357 /* Info.plist */,
+			);
+			path = InstapillTests;
+			sourceTree = "<group>";
+		};
+		E0DB744C1C2B6C4100FC1357 /* InstapillUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0DB744D1C2B6C4100FC1357 /* InstapillUITests.swift */,
+				E0DB744F1C2B6C4200FC1357 /* Info.plist */,
+			);
+			path = InstapillUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0DB74291C2B6C4000FC1357 /* Instapill */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DB74521C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "Instapill" */;
+			buildPhases = (
+				E0DB74261C2B6C4000FC1357 /* Sources */,
+				E0DB74271C2B6C4000FC1357 /* Frameworks */,
+				E0DB74281C2B6C4000FC1357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Instapill;
+			productName = Instapill;
+			productReference = E0DB742A1C2B6C4000FC1357 /* Instapill.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0DB743D1C2B6C4100FC1357 /* InstapillTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DB74551C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "InstapillTests" */;
+			buildPhases = (
+				E0DB743A1C2B6C4100FC1357 /* Sources */,
+				E0DB743B1C2B6C4100FC1357 /* Frameworks */,
+				E0DB743C1C2B6C4100FC1357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DB74401C2B6C4100FC1357 /* PBXTargetDependency */,
+			);
+			name = InstapillTests;
+			productName = InstapillTests;
+			productReference = E0DB743E1C2B6C4100FC1357 /* InstapillTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0DB74481C2B6C4100FC1357 /* InstapillUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0DB74581C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "InstapillUITests" */;
+			buildPhases = (
+				E0DB74451C2B6C4100FC1357 /* Sources */,
+				E0DB74461C2B6C4100FC1357 /* Frameworks */,
+				E0DB74471C2B6C4100FC1357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0DB744B1C2B6C4100FC1357 /* PBXTargetDependency */,
+			);
+			name = InstapillUITests;
+			productName = InstapillUITests;
+			productReference = E0DB74491C2B6C4100FC1357 /* InstapillUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0DB74221C2B6C4000FC1357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Instapill;
+				TargetAttributes = {
+					E0DB74291C2B6C4000FC1357 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NE9E7NHWX6;
+					};
+					E0DB743D1C2B6C4100FC1357 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NE9E7NHWX6;
+						TestTargetID = E0DB74291C2B6C4000FC1357;
+					};
+					E0DB74481C2B6C4100FC1357 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = NE9E7NHWX6;
+						TestTargetID = E0DB74291C2B6C4000FC1357;
+					};
+				};
+			};
+			buildConfigurationList = E0DB74251C2B6C4000FC1357 /* Build configuration list for PBXProject "Instapill" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0DB74211C2B6C4000FC1357;
+			productRefGroup = E0DB742B1C2B6C4000FC1357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0DB74291C2B6C4000FC1357 /* Instapill */,
+				E0DB743D1C2B6C4100FC1357 /* InstapillTests */,
+				E0DB74481C2B6C4100FC1357 /* InstapillUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0DB74281C2B6C4000FC1357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB74381C2B6C4100FC1357 /* LaunchScreen.storyboard in Resources */,
+				E0DB74351C2B6C4100FC1357 /* Assets.xcassets in Resources */,
+				E0DB74331C2B6C4100FC1357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB743C1C2B6C4100FC1357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB74471C2B6C4100FC1357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0DB74261C2B6C4000FC1357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB74301C2B6C4100FC1357 /* ViewController.swift in Sources */,
+				E0DB742E1C2B6C4100FC1357 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB743A1C2B6C4100FC1357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB74431C2B6C4100FC1357 /* InstapillTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0DB74451C2B6C4100FC1357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0DB744E1C2B6C4100FC1357 /* InstapillUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0DB74401C2B6C4100FC1357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0DB74291C2B6C4000FC1357 /* Instapill */;
+			targetProxy = E0DB743F1C2B6C4100FC1357 /* PBXContainerItemProxy */;
+		};
+		E0DB744B1C2B6C4100FC1357 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0DB74291C2B6C4000FC1357 /* Instapill */;
+			targetProxy = E0DB744A1C2B6C4100FC1357 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0DB74311C2B6C4100FC1357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DB74321C2B6C4100FC1357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0DB74361C2B6C4100FC1357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0DB74371C2B6C4100FC1357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0DB74501C2B6C4200FC1357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0DB74511C2B6C4200FC1357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0DB74531C2B6C4200FC1357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Instapill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Instapill.Instapill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0DB74541C2B6C4200FC1357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Instapill/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Instapill.Instapill;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0DB74561C2B6C4200FC1357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstapillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Instapill.InstapillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instapill.app/Instapill";
+			};
+			name = Debug;
+		};
+		E0DB74571C2B6C4200FC1357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InstapillTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Instapill.InstapillTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Instapill.app/Instapill";
+			};
+			name = Release;
+		};
+		E0DB74591C2B6C4200FC1357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstapillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Instapill.InstapillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Instapill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		E0DB745A1C2B6C4200FC1357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InstapillUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Instapill.InstapillUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Instapill;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0DB74251C2B6C4000FC1357 /* Build configuration list for PBXProject "Instapill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB74501C2B6C4200FC1357 /* Debug */,
+				E0DB74511C2B6C4200FC1357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0DB74521C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "Instapill" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB74531C2B6C4200FC1357 /* Debug */,
+				E0DB74541C2B6C4200FC1357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0DB74551C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "InstapillTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB74561C2B6C4200FC1357 /* Debug */,
+				E0DB74571C2B6C4200FC1357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E0DB74581C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "InstapillUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0DB74591C2B6C4200FC1357 /* Debug */,
+				E0DB745A1C2B6C4200FC1357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0DB74221C2B6C4000FC1357 /* Project object */;
+}
