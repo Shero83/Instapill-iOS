@@ -402,6 +402,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Instapill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Instapill.Instapill;
@@ -413,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Instapill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Instapill.Instapill;
@@ -487,6 +489,7 @@
 				E0DB74541C2B6C4200FC1357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0DB74551C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "InstapillTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +498,7 @@
 				E0DB74571C2B6C4200FC1357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0DB74581C2B6C4200FC1357 /* Build configuration list for PBXNativeTarget "InstapillUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +507,7 @@
 				E0DB745A1C2B6C4200FC1357 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

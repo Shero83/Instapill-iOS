@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Instapill" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,54 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nUK-Py-cSi">
+                                <rect key="frame" x="78" y="42" width="469" height="495"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rdB-3h-bQ0">
+                                <rect key="frame" x="192" y="198" width="240" height="183"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Instapill mini logo" translatesAutoresizingMaskIntoConstraints="NO" id="Gsu-g5-L6O">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="87"/>
+                                    </imageView>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" misplaced="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="bMC-EF-kge">
+                                        <rect key="frame" x="103" y="125" width="37" height="37"/>
+                                        <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="color" red="0.2784313725" green="0.67843137249999996" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Gsu-g5-L6O" firstAttribute="centerY" secondItem="rdB-3h-bQ0" secondAttribute="centerY" constant="-20" id="2xo-2g-O3X"/>
+                                    <constraint firstItem="bMC-EF-kge" firstAttribute="centerY" secondItem="rdB-3h-bQ0" secondAttribute="centerY" constant="30" id="7s7-OI-Soh"/>
+                                    <constraint firstItem="Gsu-g5-L6O" firstAttribute="centerX" secondItem="rdB-3h-bQ0" secondAttribute="centerX" id="D1K-x6-31x"/>
+                                    <constraint firstItem="bMC-EF-kge" firstAttribute="centerX" secondItem="rdB-3h-bQ0" secondAttribute="centerX" id="ICb-7j-mLt"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="nUK-Py-cSi" secondAttribute="bottom" id="FcB-Ck-pfN"/>
+                            <constraint firstItem="rdB-3h-bQ0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="GuE-O6-8ER"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rdB-3h-bQ0" secondAttribute="bottom" id="OfF-3l-lAo"/>
+                            <constraint firstItem="nUK-Py-cSi" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="lPD-ha-tKE"/>
+                            <constraint firstItem="rdB-3h-bQ0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="mVz-Cd-YVe"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nUK-Py-cSi" secondAttribute="trailing" id="qV8-fq-kCf"/>
+                            <constraint firstItem="nUK-Py-cSi" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="tKj-Kz-JSg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rdB-3h-bQ0" secondAttribute="trailing" id="uvA-vL-MTX"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="loadingView" destination="rdB-3h-bQ0" id="xWm-Nf-1a9"/>
+                        <outlet property="mainWebView" destination="nUK-Py-cSi" id="ZIv-4j-Ur6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="387"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Instapill mini logo" width="432" height="163"/>
+    </resources>
 </document>
